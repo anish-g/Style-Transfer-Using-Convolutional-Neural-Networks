@@ -8,7 +8,7 @@ This notebook utilizes VGG19 Network same as the paper and contains code with br
 ### Note
 
 Train the model in GPU if available for faster training.
-Experiment by tuning epochs and hyperparameters. Generally training in higher epochs gives better result. Play around by tuning `content_weight` and `style_weight` ratio to see different results. If GPU is not available, training takes much longer but does provide result. So, if you are just testing the model then train with fewer epochs (atleast 2000 recommended).
+Experiment by tuning epochs and hyperparameters. Generally training in higher epochs gives better result. Play around by tuning `content_weight` and `style_weight` ratio to see different results. If GPU is not available, training takes much longer but does provide result. So, if you are just testing the model then train with fewer epochs (atleast 2000 recommended). Test different variations content and style images.
 No need to change any code to run on GPU or CPU, the code in notebook detects the availability of GPU and run accordingly.
 
 
